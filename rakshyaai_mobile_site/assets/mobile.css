@@ -1,0 +1,29 @@
+@media (max-width: 480px){
+  html,body{overflow-x:hidden;margin:0;padding:0}
+  body{font-size:16px;line-height:1.5}
+  img,video,canvas{max-width:100%;height:auto}
+  .nav-links{display:none!important}
+  .mobile-menu-btn{display:inline-flex!important;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;border:1px solid rgba(255,255,255,.3);background:rgba(0,0,0,.2);cursor:pointer}
+  .mobile-drawer{position:fixed;top:0;right:0;bottom:0;width:min(80%,320px);transform:translateX(100%);transition:transform .25s ease;z-index:2000;background:rgba(0,0,0,.92);backdrop-filter:blur(10px);padding:24px}
+  .mobile-drawer.open{transform:translateX(0)}
+  .mobile-drawer a{display:block;color:#fff;text-decoration:none;font-weight:600;padding:12px 8px;border-bottom:1px solid rgba(255,255,255,.12)}
+  .drawer-close{position:absolute;top:14px;right:14px;font-size:28px;color:#fff;background:none;border:none}
+  .hero-section{padding:96px 16px 24px;min-height:auto}
+  .hero-container{display:block!important}
+  .visual-scene{height:auto!important;margin-top:24px}
+  .computer-container{width:100%!important;height:220px!important}
+  .child-character{right:0!important;width:120px!important}
+  .url-input{font-size:1rem!important;padding:12px!important}
+  .cta-button{width:100%;padding:14px 18px!important}
+  .zone-grid,.engineers-grid,.modules-grid,.quiz-options,.career-paths,.stats-grid{grid-template-columns:1fr!important}
+  .security-zone,.engineer-card,.module-card,.career-path,.quiz-option{padding:16px!important}
+  .data-flow-container{height:220px!important}
+  #universe-canvas{height:60vh!important}
+  .universe-controls{bottom:12px!important;right:12px!important}
+  .control-button{width:48px!important;height:48px!important}
+  .hero-title{font-size:clamp(1.8rem,6vw,2.2rem)!important}
+  .hero-subtitle{font-size:1rem!important}
+  .section-title,.engineers-title,.stats-title,.career-title{font-size:1.6rem!important}
+  .module-title,.zone-title{font-size:1.2rem!important}
+}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
